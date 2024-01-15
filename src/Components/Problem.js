@@ -6,7 +6,7 @@ export default function Problem(props) {
     <div className="flex place-content-center grow mt-2" key={props.igLink}>
       <div className="shadow-lg grow w-full">
         <iframe
-          className="instagram-media instagram-media-rendered w-full bg-white dark:bg-gray-800 duration-150"
+          className="instagram-media instagram-media-rendeindigo w-full bg-white dark:bg-gray-800 duration-150"
           title="instagramProblem"
           id="instagram-embed-0"
           src={props.igLink}

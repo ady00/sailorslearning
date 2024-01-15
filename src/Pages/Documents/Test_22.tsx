@@ -17,10 +17,10 @@ export default function TestDocs(props) {
       <header className="drop-shadow-lg bg-slate-100 dark:bg-gray-800 duration-150 ">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2">
           <div className="text-4xl font-extrabold text-gray-900 dark:text-white  ">
-            OMMC 2022 Test Documents
+            Sailors Learning 2022 Test Documents
           </div>
           <a href="/2022-leaderboard" className="lg:ml-auto mt-2 lg:mt-0">
-            <button className="bg-red-700 hover:bg-red-800 rounded-xl   hover:scale-105 duration-150 text-white font-bold py-2 px-4">
+            <button className="bg-indigo-700 hover:bg-indigo-800 rounded-xl   hover:scale-105 duration-150 text-white font-bold py-2 px-4">
               See the leaderboard
             </button>
           </a>

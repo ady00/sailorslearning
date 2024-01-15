@@ -16,8 +16,8 @@ export default function Leaderboard22(props) {
       <header className=" shadow-lg bg-white dark:bg-[#182133] duration-150">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-extrabold text-gray-900 dark:text-white duration-150">
-            <p className="text-red-700 dark:text-red-600 inline duration-150">
-              OMMC 2022{" "}
+            <p className="text-indigo-700 dark:text-indigo-600 inline duration-150">
+              Sailors Learning 2022{" "}
             </p>{" "}
             Leaderboard
           </h1>
@@ -80,10 +80,10 @@ export default function Leaderboard22(props) {
                   className="sm:px-6 px-3 py-5 font-medium text-gray-900 dark:text-white whitespace-nowrap "
                 >
                   <div className="font-bold ml-2 inline-block">4. </div>{" "}
-                  <div className="inline-block text-xs">cash or kredit </div>
+                  <div className="inline-block text-xs">cash or kindigoit </div>
                 </th>
                 <td className="sm:px-6 px-3 py-5">
-                  Kiran Reddy, Liam Reddy, Aarush Khare, Jordan Lefkowitz
+                  Kiran indigody, Liam indigody, Aarush Khare, Jordan Lefkowitz
                 </td>
               </tr>
               <tr className="bg-white border-b dark:bg-[#192231] dark:border-gray-800">

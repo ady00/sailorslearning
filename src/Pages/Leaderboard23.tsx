@@ -16,8 +16,8 @@ export default function Leaderboard23(props) {
       <header className=" shadow-lg bg-white dark:bg-[#182133] duration-150">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-extrabold text-gray-900 dark:text-white duration-150">
-            <p className="text-red-700 dark:text-red-600 inline duration-150">
-              OMMC 2023{" "}
+            <p className="text-indigo-700 dark:text-indigo-600 inline duration-150">
+              Sailors Learning 2023{" "}
             </p>{" "}
             Leaderboard
           </h1>
@@ -43,10 +43,10 @@ export default function Leaderboard23(props) {
                   className="sm:px-6 px-3 py-5 font-medium text-gray-900 dark:text-white whitespace-nowrap "
                 >
                   <div className="text-lg inline-block">🥇 </div>
-                  <div className="inline-block">The Inkredibles</div>
+                  <div className="inline-block">The Inkindigoibles</div>
                 </th>
                 <td className="sm:px-6 px-3 py-5">
-                  Liam Reddy, Kiran Reddy, Jordan Lefkowitz, Aarush Khare
+                  Liam indigody, Kiran indigody, Jordan Lefkowitz, Aarush Khare
                 </td>
               </tr>
               <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-800">
@@ -67,7 +67,7 @@ export default function Leaderboard23(props) {
                   className="sm:px-6 px-3 py-5 font-medium text-gray-900 dark:text-white whitespace-nowrap "
                 >
                   <div className="text-lg inline-block">🥉 </div>{" "}
-                  <div className="inline-block">red panda</div>
+                  <div className="inline-block">indigo panda</div>
                 </th>
                 <td className="sm:px-6 px-3 py-5">
                   Andrew Lin, David Dong, Aaryan Vaishya, Feodor Yevtushenko
@@ -152,7 +152,7 @@ export default function Leaderboard23(props) {
                 >
                   <div className="font-bold ml-2 inline-block">10. </div>{" "}
                   <div className="inline-block text-xs">
-                    <span className="hidden md:inline">red pandamogus</span>
+                    <span className="hidden md:inline">indigo pandamogus</span>
                   </div>
                 </th>
                 <td className="sm:px-6 px-3 py-5">
@@ -180,7 +180,7 @@ export default function Leaderboard23(props) {
                 >
                   <div className="font-bold ml-2 inline-block">12. </div>{" "}
                   <div className="inline-block text-xs">
-                    I don’t like red pandas
+                    I don’t like indigo pandas
                   </div>
                 </th>
                 <td className="sm:px-6 px-3 py-5">

@@ -6,222 +6,417 @@ import React from "react";
 const members = [
   {
     id: 1,
-    name: "Evan Chang",
+    name: "Archit Kumar",
     href: "#",
-    imageSrc: "/staff/evan.png",
-    imageAlt: "Evan Chang",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Archit Kumar",
     role: "Co-Founder, CEO",
-    bio: "Evan Chang is a senior at High Technology High School in Lincroft, New Jersey and student researcher through the MIT PRIMES-USA program. In 2023, he was a USAMO Gold Medalist and placed 12th out of all students nationwide.  He was a MOP camper in 2022 and 2023 and is a SPARC camper in 2023. He is an intern for LIVE by Po Shen Loh. Evan also currently studies piano and music composition.",
+    bio: "Sanjay is a senior at Foothill High School passionate about improving educational outcomes globally. His interests lie at the intersection of data science and public policy. He is the president of Foothill Speech and Debate and has published many peer-reviewed articles.",
   },
   {
     id: 2,
-    name: "Ishaan Akula",
+    name: "Wallahi Ameen",
     href: "#",
-    imageSrc: "/staff/ishaan.png",
-    imageAlt: "Ishaan Akula",
-    role: "Co-Founder, Director",
-    bio: "Ishaan is a senior at High Technology High School in Lincroft, New Jersey. He cofounded OMMC with Evan Chang in September of 2020, and currently works as a director for OMMC and handles the partnership and impact aspect of the competition, including work with sponsors, partners, and donors. He was awarded Honorable Mention for Environmental Science in the Jersey Shore Science Fair. He won 1st place at the state-wide regional bee, qualifying for the National Scripps Spelling Bee. He specializes in UI/UX design and mobile app development using Flutter programming. Furthermore, he is actively involved in the Performing Arts, demonstrating leadership and acting skills in school musicals and performing with his a cappella group, 'Tech-appella.'",
+    imageSrc: "/staff/default.png",
+    imageAlt: "bhjdkm",
+    role: "Co-Founder, CEO",
+    bio: "Sanjay is a senior at Foothill High School passionate about improving educational outcomes globally. His interests lie at the intersection of data science and public policy. He is the president of Foothill Speech and Debate and has published many peer-reviewed articles.",
   },
   {
     id: 3,
-    name: "Kevin Liu",
+    name: "EEPA EEEPA",
     href: "#",
-    imageSrc: "/staff/kevin.png",
-    imageAlt: "Kevin Liu",
-    role: "Co-Founder, CTO",
-    bio: "Kevin is a senior at High Technology High School in Lincroft, New Jersey. He attended the Governor's School of Engineering and Technology in New Jersey and is currently an SWE intern at Bloomberg LP. He cofounded OMMC with Evan Chang in September of 2020, and currently works as the chief technical officer for OMMC, handling the online aspect of the competition, including the official OMMC Website, Test Portal, and OMMC Atlas. He uses the latest frontend/backend languages and technologies including Next13, Typescript, React, and Tailwind. He also enjoys participating in college hackathons like PennApps at the University of Pennsylvania.",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Eepa Vargeez",
+    role: "Supreme Overlord",
+    bio: "Sanjay is a senior at Foothill High School passionate about improving educational outcomes globally. His interests lie at the intersection of data science and public policy. He is the president of Foothill Speech and Debate and has published many peer-reviewed articles.",
   },
   {
-    id: 4,
-    name: "Bill Fei",
-    href: "#",
-    imageSrc: "/staff/bill.png",
-    imageAlt: "Bill Fei",
-    role: "Director",
-    bio: "Bill Fei is a senior at West Lafayette Jr./Sr. High School in West Lafayette, Indiana. He is an assistant director for OMMC and a Coca-Cola Scholarship Seminfinalist. He participates in competitive programming and competition math. He is a USACO Gold Medalist, a three-time AIME qualifier, and has achieved Distinguished Honor Roll on the AMC 10. He won first place in the ICTM math competition in Indiana, and coaches his school’s MATHCOUNTS team. Besides math, he does many other things in his spare time. He enjoys playing the viola and has been in the Indiana All-State Orchestra 2 years in a row and was the sectional principle of the viola section for both his years in the Indiana Junior All-State Orchestra. He also studies piano and has won awards at the Indiana State Fair piano competition. In addition, he enjoys being on his school’s debate team. He was on his school’s state Public Forum debate roster, and placed 5th at his district’s Congressional Debate. In his free time, he enjoys procrastinating and sleeping.",
+    "id": 4,
+    "name": "Tanvi Kapse",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math", "ELA"],
+    "bio": "Tanvi has Math Olympiad Experience and enjoys reading, writing, and tennis. She also has won numerous creative writing awards."
   },
+  {
+    "id": 5,
+    "name": "Shreya Pandey",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math", "Science"],
+    "bio": "Shreya is in 9th grade and excels in Math and Science. She has participated in the Science Olympiad and is fluent in Hindi, learning French. Shreya is also an Honor Roll Student."
+  },
+  {
+    "id": 6,
+    "name": "Ethan Ngo",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math", "Science"],
+    "bio": "Ethan is in 11th grade and excels in Math and Science. He has participated in the Science Olympiad and is fluent in Hindi, learning French. Ethan is also an Honor Roll Student."
+  },
+  {
+    "id": 7,
+    "name": "Urja Vaidya",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math", "Science", "ELA", "History"],
+    "bio": "A 9th grader with awards in AMC and Math Olympiad. Spelling Bee Champion and Science Olympiad Experience."
+  },
+  {
+    "id": 8,
+    "name": "Ryan Arakal",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math", "Science"],
+    "bio": "10th grader with straight A's in Science. Enjoys Chemistry, Astrology, and received an Award for Education Excellence."
+  },
+  {
+    "id": 9,
+    "name": "Arul Dhar",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math", "Science"],
+    "bio": "A 9th grader with Science Olympiad Experience, bilingual in Spanish and English, and active in competitive soccer."
+  },
+  {
+    "id": 10,
+    "name": "Michelle Chen",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math", "ELA"],
+    "bio": "UC Berkeley student with expertise in Economic, Business, and Statistics. Experienced in Advanced Math and enjoys music and the Violin."
+  },
+  {
+    "id": 11,
+    "name": "Harini Gandhimathi",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math", "Science"],
+    "bio": "A 9th grader with 4 years of Violin Experience, passionate in Math, and known for being open-minded and hardworking."
+  },
+  {
+    "id": 12,
+    "name": "Pranav Nethi",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math", "Science", "History"],
+    "bio": "An 11th grader who has taken up to AP Calculus, completed all History classes offered, and known for being hardworking and committed."
+  },
+  {
+    "id": 13,
+    "name": "Katherine Yeh",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math", "Science", "ELA"],
+    "bio": "A 10th grader with Summer Camp Experience, A's in Honors English, and fluent in English and Chinese."
+  },
+  {
+    "id": 14,
+    "name": "Ashwin Prakash",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math", "Science", "History"],
+    "bio": "A 9th grader and Secretary of Robotics Club, Model UN and Debate Success, and two years ahead in Math."
+  },
+  {
+    "id": 15,
+    "name": "Karen Wan",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["ELA", "Science", "History"],
+    "bio": "A 10th grader with 5 Years of Flute Experience, enjoys Reading and Writing, and part of Varsity Cross Country."
+  },
+  {
+    "id": 16,
+    "name": "Jessup Byun",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math", "Science", "ELA", "History"],
+    "bio": "A 9th grader who enjoys tennis, gaming, and chess. Two years ahead in Math and an Honors English Student."
+  },
+  {
+    "id": 17,
+    "name": "Aarnav Reddy",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["History", "Science"],
+    "bio": "A 9th grader with 3 years of Public Forum Debate, proactive in academics, and taken Biology and Honors History."
+  },
+  {
+    "id": 18,
+    "name": "Maanya Raguram",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math", "Science"],
+    "bio": "A 9th grader with a Third-degree Black Belt, State Award for Piano, and part of the ELA Book Club."
+  },
+  {
+    "id": 19,
+    "name": "Ally Chiang",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math"],
+    "bio": "A 10th grader who is 1 year ahead in Math, has Summer Camp Experience, and 7 Years of Piano."
+  },
+  {
+    "id": 20,
+    "name": "Akshat Singhania",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math", "Science", "Alto Sax"],
+    "bio": "A 10th grader who is 2 years ahead in math, has been playing Alto Sax for 4 years, and has previous tutoring experience."
+  },
+  {
+    "id": 21,
+    "name": "Shreyas Nayak",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Chess"],
+    "bio": "A 10th grader who has been playing Chess for 7 years, is a 5 Time CA State Champion, and in the top 50 in the US for his age."
+  },
+  {
+    "id": 22,
+    "name": "Abhirup Mora",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math", "Science"],
+    "bio": "A 10th grader with previous tutoring experience, three years ahead in math, and enrolled in honors courses."
+  },
+  {
+    "id": 23,
+    "name": "David Signore",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math", "Science"],
+    "bio": "A 10th grader with Science Olympiad Experience, fluent in Hindi, learning French, and an Honor Roll Student."
+  },
+  {
+    "id": 24,
+    "name": "Nourah Hallaj-Pour",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["ELA", "History"],
+    "bio": "An 11th grader and a volleyball player and coach. Fluent in Farsi, learning French, and a small business owner."
+  },
+  {
+    "id": 25,
+    "name": "Ria Dadia",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math", "Science", "ELA", "Violin"],
+    "bio": "A 10th grader, highest scorer in MathCounts, has been playing the violin for 11 years, and is an Honor Roll Student."
+  },
+  {
+    "id": 26,
+    "name": "Aria Roach",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Violin", "Viola"],
+    "bio": "A 12th grader who has been playing the violin for 12 years, the viola for 6 years, and has won scholarships for music."
+  },
+  {
+    "id": 27,
+    "name": "Aditya Warrier",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math", "ELA"],
+    "bio": "A 9th grader enrolled in advanced math, enjoys playing the violin, and coding."
+  },
+  {
+    "id": 28,
+    "name": "Akarsh",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math", "Spanish", "Coding"],
+    "bio": "A 10th grader who has been coding for 3 years, is good at playing drums & guitar, and is ahead in math by 2 years."
+  },
+  {
+    "id": 29,
+    "name": "Maisha Sharma",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math"],
+    "bio": "A 9th grader with Math Olympiad Experience, fluent in Hindi, learning French, and enrolled in advanced math."
+  },
+  {
+    "id": 30,
+    "name": "Shashwat Sahoo",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Art"],
+    "bio": "A 7th grader who does track and field, knows several art styles, and has been doing arts for years."
+  },
+  {
+    "id": 31,
+    "name": "Declan McPherson",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math", "ELA"],
+    "bio": "A 9th grader enrolled in advanced math, enrolled in advanced English, and is hardworking and dependable."
+  },
+  {
+    "id": 32,
+    "name": "Nitish Vobilisetti",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math", "Coding"],
+    "bio": "An 11th grader with previous tutoring experience, taken many AP courses, and is a Varsity Debater."
+  },
+  {
+    "id": 33,
+    "name": "Nathan Pinheiro",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math", "Science"],
+    "bio": "An 11th grader who has taken AP math and science, is hardworking and determinate, and has a calm and collected nature."
+  },
+  {
+    "id": 34,
+    "name": "Evan Tian",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math", "ELA", "History", "Origami"],
+    "bio": "A 10th grader and Division 1 Basketball Player, fluent in Mandarin, with high GPAs in 9th and 10th grade."
+  },
+  {
+    "id": 35,
+    "name": "Jessica Bakar",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["ELA", "History", "French"],
+    "bio": "A 10th grader, part of the Color Guard Program, got a gold medal in French Exam, and enrolled in advanced English."
+  },
+  {
+    "id": 36,
+    "name": "Adway Sane",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math", "Coding"],
+    "bio": "A 10th grader who finished a Certified Coding Course, enrolled in many Honors and AP's, and is very good at chess with high ratings."
+  },
+  {
+    "id": 37,
+    "name": "Karan Virk",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math"],
+    "bio": "A 10th grader enrolled in advanced math, part of the Biomedical Course, and enjoys English writing."
+  },
+  {
+    "id": 38,
+    "name": "Rayna Vora",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math", "Science", "ELA", "History"],
+    "bio": "A 10th grader with Science Olympiad Experience, bilingual (learning Spanish), and a Social Justice Activist for GirlUp."
+  },
+  {
+    "id": 39,
+    "name": "Aarushi Jain",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math", "ELA"],
+    "bio": "A 10th grader who has taken many honors courses, swims competitively, and is fluent in Hindi (learning Spanish)."
+  },
+  {
+    "id": 40,
+    "name": "Suhani Jha",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Biomed", "ELA", "History", "Math"],
+    "bio": "An 11th grader with 3 years of Biomed experience, has written scripts for annual plays, and has been dancing for 10 years."
+  },
+  {
+    "id": 41,
+    "name": "Ayush Gupta",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math", "Coding", "Drawing"],
+    "bio": "An 11th grader who has won many coding contests, plays Volleyball for the school team, and won 2nd place for drawing."
+  },
+  {
+    "id": 42,
+    "name": "Ria Vinodkumar",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math", "Science"],
+    "bio": "A 9th grader with previous tutoring experience, well-versed in math and science, and involved in community events."
+  },
+  {
+    "id": 43,
+    "name": "Aman Nadkarni",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math", "ELA"],
+    "bio": "A 10th grader who has played drums for 7 years, enrolled in advanced math, and involved in the community."
+  },
+  {
+    "id": 44,
+    "name": "Abhimanyu Warrier",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math", "Science", "History"],
+    "bio": "A 10th grader with the ability to code in Java, passionate about debate, and enrolled in advanced courses."
+  },
+  {
+    "id": 45,
+    "name": "Suchir Tumuluru",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math"],
+    "bio": "A 12th grader taking AP math courses and math courses in University, also a Varsity Tennis Player."
+  },
+  {
+    "id": 46,
+    "name": "Julia Smith",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math", "Science", "ELA", "French"],
+    "bio": "A 12th grader who taught children at Kumon, an AP and Honors student, and a TA at an elementary school."
+  },
+  {
+    "id": 47,
+    "name": "Austin Chen",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math", "Coding"],
+    "bio": "A 10th grader enrolled in AP math and coding, got 2nd place in a math contest, and has been in the band for 3 years."
+  },
+  {
+    "id": 48,
+    "name": "Yash Pathak",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math"],
+    "bio": "A 12th grader ranked 13th in Math Olympiad, enjoys playing the piano, and has taken AP math courses."
+  },
+  {
+    "id": 49,
+    "name": "Jacob Roach",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math"],
+    "bio": "A 10th grader who enjoys playing baseball, volunteered at summer camps, and is enrolled in AP/Honors courses."
+  },
+  {
+    "id": 50,
+    "name": "Joshua Yu",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["History", "Coding", "Music"],
+    "bio": "A 10th grader enrolled in many AP courses, enjoys playing tennis, and is fluent in Java."
+  },
+  {
+    "id": 51,
+    "name": "Wesley Chen",
+    "href": "#",
+    "role": "Tutor",
+    "subjects": ["Math", "Violin", "Piano"],
+    "bio": "An 11th grader who got First Place in Violin Competitions, is fluent in English and Chinese, and holds an ABRSM Piano Grade 8 Distinction."
+  }
 
-  {
-    id: 5,
-    name: "Advika Vuppala",
-    href: "#",
-    imageSrc: "/staff/advika.jpeg",
-    imageAlt: "Advika Vuppala",
-    role: "Head of Logistics",
-    bio: "Advika Vuppala is a senior at High Technology High School in Lincroft, New Jersey. She worked on Marketing and Social Media for OMMC last year, and also helped with content creation for the website. This year, she helped with Outreach and Social Media. Advika served as Marketing and Outreach director for cypHER, and has a lot of experience with managing professional social media accounts. In her free time, she loves playing lacrosse, baking, hiking, and biking.",
-  },
-  {
-    id: 6,
-    name: "Justin Lee",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "Justin Lee",
-    role: "Head of Content Creation",
-    bio: "Justin is a senior at Spring Valley High School in Las Vegas, Nevada. He is a member of the Problem Committee at OMMC. Additionally, he is a staff member for OYMC, ALP, MMO, and Holiday Problems. He has participated in numerous math competitions such as MathCounts, ARML, and the AMC competition series. He is active on AoPS where you can find him as JustinLee2017. In his free time, he enjoys doing puzzle hunts, hiking, and playing video games.",
-  },
-  {
-    id: 7,
-    name: "Ananya Vuppala",
-    href: "#",
-    imageSrc: "/staff/ananya.jpeg",
-    imageAlt: "Ananya Vuppala",
-    role: "Head of Outreach",
-    bio: "Ananya is currently a senior at Marine Academy of Science and Technology in Highlands, NJ. She is on OMMC's social media and outreach team, and helps out with making flyers and exploring social media design. She's a math tutor for students in elementary and middle school, and loves working with students to be able to work on their strengths and weaknesses and be part of their learning experience. A few of her hobbies include playing lacrosse, designing content, hiking, exploring finance, and many more. Ananya loves meeting new people and trying new things!",
-  },
-  {
-    id: 8,
-    name: "Mahith Gottipati",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "Mahith Gottipati",
-    role: "Head of Content Creation",
-    bio: 'Mahith is a sophomore from Texas. He has qualified for the AIME twice and has placed well in several other contests. Apart from mathematics, he enjoys coding, playing table tennis, and playing chess. You can find him on lichess under the handle "mathimathz," where he plays (a little too much) bullet.',
-  },
-  {
-    id: 9,
-    name: "Tanishq Pauskar",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "Tanishq Pauskar",
-    role: "Head of Content Revision",
-    bio: "Tanishq Pauskar is a junior who enjoys solving and writing math problems. He is particularly fond of the subject combinatorics. Over the past few months, Tanishq has worked to test solve the OMMC exam. He has qualified for the USAJMO 3 times, becoming a USAJMO winner in 2022. In his spare time, he enjoy writing math problems and playing board games such as chess and connect 4.",
-  },
-  {
-    id: 10,
-    name: "Aprameya Tripathy",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "Aprameya Tripathy",
-    role: "Head of Content Revision",
-    bio: "Aprameya Tripathy is a high school sophomore who works as a testsolver at OMMC. He has attended MOP and is a one time JMO qualifier, and in his free time, you can find him testing out new recipes or exploring geometry configurations. He hopes to bake a croquembouche one day.",
-  },
-  {
-    id: 11,
-    name: "Vinay Singamsetty",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "Vinay Singamsetty",
-    role: "Website Developer",
-    bio: "Vinay is a junior in California. He is a developer for OMMC and contributed greatly to the testing portal and website. He is an avid developer and is skilled at developing web applications focused on responsive design, positive UX/UI, SEO and more. He is fluent in React/Next, Vue/Nuxt, JS/HTML/CSS, Sass and general purpose languages like Node JS, Python, C++, C, C#, Java, and more. He's good at developing algorithms and vital coding concepts such as control flow, program structure, versioning, debugging, and formatting. He is also a math enthusiast, achieving honor roll on AMC 8 previously and is currently working on honing his math skills.    ",
-  },
-  {
-    id: 12,
-    name: "Vivian Loh",
-    href: "#",
-    imageSrc: "/staff/vivian.png",
-    imageAlt: "Vivian Loh",
-    role: "Content Contributor",
-    bio: "Vivian Loh is a senior at Winchester Thurston School in Pittsburgh, PA. She is a testsolver for OMMC. She received USAJMO winner and an EGMO gold medal in 2022, and has qualified for MOP twice. She has been participating in math contests since 5th grade, qualifying for AIME five times and USAJMO twice, and is particularly enthusiastic about geometry, which she often spends her free time doing. She is also very active on AoPS and Discord (she can be found under the username v4913), and likes biking and talking with friends.",
-  },
-  {
-    id: 13,
-    name: "Serena Xu",
-    href: "#",
-    imageSrc: "/staff/serena.png",
-    imageAlt: "Serena Xu",
-    role: "Content Contributor",
-    bio: "Serena Xu is a college freshman who started math competitions at 7th grade. She attended MOP and SUMaC besides winning a silver in APMO for USA in 2022. She published Rabbit's Geometry while organizing GmathIRL. In her free time, she likes reading Naruto, playing video games, producing EDMs and writing massive blogs.    ",
-  },
-  {
-    id: 14,
-    name: "Isaac Chen",
-    href: "#",
-    imageSrc: "/staff/isaac.png",
-    imageAlt: "Isaac Chen",
-    role: "Content Contributor",
-    bio: "Isaac Chen is a junior at Princeton Day School in Princeton, NJ, and attended MOP. He contributes problems to OMMC and other contests such as the Online Youth Mathematics Competition. Isaac is a one-time USAJMO qualifier, one-time AMC 10 DHR awardee, and two-time AIME qualifier. He also placed 17th overall at CMIMC Math 2022 and 5th overall at 2021 NJ MATHCOUNTS States. Outside of math, Isaac spends his time playing and watching basketball, coding, and walking around Princeton University’s beautiful campus with his friends.",
-  },
-  {
-    id: 15,
-    name: "Vikram Sarkar",
-    href: "#",
-    imageSrc: "/staff/vikram.jpg",
-    imageAlt: "Vikram Sarkar",
-    role: "Content Contributor",
-    bio: "Vikram Sarkar is a test solver for the OMMC team and is currently a sophomore. His achievements include 2 times Mathcounts Nationals Qualifier (top 56 / top 25% this year), and USAJMO Winner. He likes listening to EDM and various artists, and also likes video games.",
-  },
-  {
-    id: 16,
-    name: "Sheldon Tan",
-    href: "#",
-    imageSrc: "/staff/sheldon.png",
-    imageAlt: "Sheldon Tan",
-    role: "Content Contributor",
-    bio: "Sheldon Tan is a senior from Monte Vista High School in Danville, California. He qualified for the USAJMO in 2022 and spent the last two summers at the Ross Math Program. Besides math, he enjoys playing the piano, writing, hiking, and Frisbee.",
-  },
-  {
-    id: 17,
-    name: "Alexander Wang",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "Alexander Wang",
-    role: "Content Contributor",
-    bio: "Alexander Wang is a sophomore who works as a Content Contributor for OMMC. He is an IMO Gold Medalist and has achieved Distinguished Honor Roll on the AMC 10/12 multiple times. He has qualified for USAJMO 3 times, and placed overall rank 1 in USAJMO out of all contestants in 2022. He has also qualified for MATHCOUNTS Nationals two times. He is also a member of the selective Lehigh ARML Fire Team. He will be attending the prestigious MOP program this summer. You can find him on AoPS with the nickname DottedCaculator.",
-  },
-  {
-    id: 18,
-    name: "Calvin Wang",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "Calvin Wang",
-    role: "Content Contributor",
-    bio: "Calvin is a sophomore in Virginia who has participated in various math competitions such as AIME and MATHCOUNTS. He made AIME since 6th grade, got a perfect score in AMC8 in 6th grade, was the runner up in MATHCOUNTS Nationals in 8th grade, and has been actively doing many math competitions. Calvin enjoys many forms of math, and wants others to enjoy them, too. He is an active member on Discord(going by jatloe) and AoPS(going by cj13609517288). In his free time, Calvin enjoys playing and making puzzles, playing games, and wasting time on Discord.",
-  },
-  {
-    id: 19,
-    name: "Chris Bao",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "Chris Bao",
-    role: "Problem Committee",
-    bio: "Chris Bao is a junior at the Davidson Academy of Nevada. He has qualified for the USAJMO three times and the USAMO in 2023. He has also participated in MOP 2022 and MOP 2023. Besides math, Chris also plays chess, piano, and works on coding a chess engine in his free time.",
-  },
-  {
-    id: 20,
-    name: "Neal Yan",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "Neal Yan",
-    role: "Problem Committee",
-    bio: "Neal is a highschool senior and geometry addict hailing from Wisconsin, serving as a problem writer / testsolver / marketer for OMMC. He has attended MOP and is also the chief math officer of the regional organization known as Youth EUCLID Association. In math contests, he's made USA(J)MO since 8th grade, and has achieved multiple individual top fives at collegiate math tournaments like BMT, SMT, and JHMT. During most of the day, he enjoys solving and attempting to write olympiad problems, grinding OTIS, spamming / calling friends on Discord, listening to electronic songs, and blogging on AoPS under the username 'crazyeyemoody907'.",
-  },
-  {
-    id: 21,
-    name: "Ritwin Narra",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "Ritwin Narra",
-    role: "Content Creation",
-    bio: "Ritwin is currently a junior in California and a Test Solver for OMMC. Ritwin has qualified for USACO camp and has qualified for the AIME since 7th grade, and his math accomplishments include a 72 on USAMTS and a 24 on BAMO (one point under Honorable Mention). In school, he teaches both programming and math. Apart from math, he loves coding: he's a USACO Platinum participant and reached Codeforces Master. Also, he likes cubing, especially the Square-1, and aims for a sub-20 3x3 average.",
-  },
-
-  {
-    id: 22,
-    name: "Bryan Guo",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "Bryan Guo",
-    role: "Content Contributor",
-    bio: "Bryan Guo is a problem contributor for the OMMC team and is currently in a sophomore. He has achieved Distinguished Honor Roll on the AMC 10 several times, and qualified for the 2022 USAJMO. He is a two-time USAMTS silver medalist and has participated in the A2 team for SD ARML. In the 2022 AMC cycle, he achieved a perfect score on the AMC 10. Apart from math, he enjoys playing tennis and talking on Discord.",
-  },
-  {
-    id: 23,
-    name: "Srinivas Arun",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "Srinivas Arun",
-    role: "Content Contributor",
-    bio: "Srinivas Arun is a senior at Cherry Creek High School in Denver, Colorado. He is a testsolver for OMMC. Srinivas has attended RSI and received a bronze medal on USAMO 2022, qualifying for MOP. He has participated in math competitions since 6th grade, qualifying for the AIME four times and the USA(J)MO three times. He has also qualified for MathCounts Nationals, representing Colorado, and he was the 3rd place individual at ARML 2021. Outside of math, he enjoys competitive programming, biking, and teaching.",
-  },
-  {
-    id: 24,
-    name: "Rohan Bodke",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "Rohan Bodke",
-    role: "Content Contributor",
-    bio: "Rohan is a junior in California who works for OMMC as a content contributor. He attended MOP and started math contests in 2018, when he was in sixth grade. Since then, he has qualified for the AIME three times, and the USAJMO twice, winning it in 2022. He was also part of California's MATHCOUNTS team in 2021, and was sixteenth place at nationals. In addition to math, he likes to play chess and other board games, both with his friends and online. He also enjoys doing extremely weird things no one else would do, such as reading WP:UA. He was a top 20 player in the now-defunct mobile game _Big Bang Racing_.",
-  },
+  
 ];
 export default function Staff(props) {
   return (
