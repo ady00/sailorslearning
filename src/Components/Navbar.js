@@ -12,6 +12,8 @@ import React, { useState } from "react";
 const navigation = [
   { name: "Home", href: "/", current: true, page: "main" },
   { name: "Staff", href: "/staff", current: true, page: "staff" },
+  { name: "Publications", href: "/publications", current: true, page: "publications" },
+
   { name: "Donate", href: "https://www.paypal.com/donate/?cmd=_donations&business=SZJ8WBPGSXNJJ&currency_code=USD&Z3JncnB0=", current: true},
   // {
   //   name: "Leaderboard",
@@ -30,6 +32,8 @@ const mobileNavigation = [
   { name: "Home", href: "/", current: true, page: "main" },
   { name: "Staff", href: "/staff", current: true, page: "staff" },
   { name: "Donate", href: "https://www.paypal.com/donate/?cmd=_donations&business=SZJ8WBPGSXNJJ&currency_code=USD&Z3JncnB0=", current: true},
+  { name: "Publications", href: "/publications", current: true, page: "publications" },
+
   // {
   //   name: "Leaderboard",
   //   href: "/leaderboard",

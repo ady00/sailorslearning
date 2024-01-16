@@ -3,7 +3,9 @@ import Main from "./Pages/Main.tsx";
 
 import Sponsors from "./Pages/Sponsors.tsx";
 import Staff from "./Pages/Staff.tsx";
+import Publications from "./Pages/Publications.tsx";
 
+import NotFound from "./Pages/Error.tsx";
 
 import Footer from "./Components/Footer.js";
 
@@ -36,6 +38,18 @@ function App() {
         <Route
           path="staff"
           element={<Staff dark={dark} setDark={setDark} />}
+        ></Route>
+
+
+        <Route
+          path="publications"
+          element={<Publications dark={dark} setDark={setDark} />}
+        ></Route>
+
+
+      <Route
+          path="*"
+          element={<NotFound dark={dark} setDark={setDark} />}
         ></Route>
 
 

@@ -171,7 +171,7 @@ export default function Main(props) {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="self-center ">
               <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">
-                Timeline
+                Reviews
               </h2>
               <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl dark:text-gray-300 ">
                 Our History
@@ -193,44 +193,38 @@ export default function Main(props) {
               <li className="mb-10 ml-4 text-white bg-gray-100 dark:bg-[#1d263a] border-2 border-gray-200 dark:border-[#182133] rounded-xl p-2">
                 <div className="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 -left-[0.415rem] border border-white dark:border-gray-900 "></div>
                 <time className="mb-1 text-sm font-normal leading-none text-indigo-700 dark:text-indigo-600">
-                  May 2020
+                 Parent
                 </time>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-300 ">
-                  Sailors Learning Begins
+                Anshoo K.
                 </h3>
                 <p className="mb-2 text-base font-normal text-gray-500 dark:text-gray-400">
-                  We initially planned on helping students learn in the midst of virtual learning.
+                Ariana loves her tutors for math (Tanvi K) as well as creative writing (Katherine).The tutors are very personable, disciplined, organized and at the same time make sure that kids are having fun. Ariana has learned so much and has vastly improved in both the aforementioned subjects. As a parent I appreciate the timely and organized communications. You are doing a great job Sailors Learning!!
                 </p>
               </li>
               <li className="mb-10 ml-4 text-white bg-gray-100 dark:bg-[#1d263a] border-2 border-gray-200 dark:border-[#182133] rounded-xl p-2">
                 <div className="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 -left-[0.415rem] border border-white dark:border-gray-900 "></div>
                 <time className="mb-1 text-sm font-normal leading-none text-indigo-700 dark:text-indigo-600">
-                  April 2021
+                  Parent
                 </time>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-300 ">
-                  XYZ Thing happens
+                Preetha S.
                 </h3>
                 <p className="mb-2 text-base font-normal text-gray-500 dark:text-gray-400">
-                  Archit -- tell me what to put here
+                My son enrolled in History and Coding classes with Sailors Learning. It’s been an enriching experience for him, quality of teaching by high school students have been very impressive. They are able to quickly connect with the students and make it a very collaborative learning experience. I’m looking forward to enroll my son in more classes . Kudos to the team running this platform – Students teach Students!
                 </p>
               </li>
               <li className="mb-10 ml-4 text-white bg-gray-100 dark:bg-[#1d263a] border-2 border-gray-200 dark:border-[#182133] rounded-xl p-2">
                 <div className="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 -left-[0.415rem] border border-white dark:border-gray-900 "></div>
                 <time className="mb-1 text-sm font-normal leading-none text-indigo-700 dark:text-indigo-600">
-                  July 2022
+                  Parent
                 </time>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-300 ">
-                  Something happens
+                  Alisa H.
                 </h3>
                 <p className="mb-2 text-base font-normal text-gray-500  dark:text-gray-400">
-                  Archit what do I put here
+                The tutor comes each session with a lesson plan to improve Tyler’s writing and vocabulary. Her tutoring is of the highest ranks and incredibly interesting. His world has expanded while his skills have improved.
                 </p>
-              </li>
-              <li className="ml-4">
-                <div className="absolute w-3 h-3 bg-indigo-700 rounded-full mt-1.5 -left-[0.415rem] border border-white dark:border-gray-900  "></div>
-                <h3 className="text-lg font-semibold text-white bg-gradient-to-tr from-indigo-500 to-indigo-700 dark:from-indigo-700 dark:to-indigo-800 rounded-xl inline py-1 px-2">
-                  Today!
-                </h3>
               </li>
             </ol>
           </div>
