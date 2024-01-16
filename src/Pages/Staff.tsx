@@ -11,26 +11,9 @@ const members = [
     imageSrc: "/staff/default.png",
     imageAlt: "Archit Kumar",
     role: "Co-Founder, CEO",
-    bio: "Sanjay is a senior at Foothill High School passionate about improving educational outcomes globally. His interests lie at the intersection of data science and public policy. He is the president of Foothill Speech and Debate and has published many peer-reviewed articles.",
+    bio: "SanArchit is a senior at Foothill High School passionate about improving educational outcomes globally. His interests lie at the intersection of data science and public policy. He is the president of Foothill Speech and Debate and has published many peer-reviewed articles.",
   },
-  {
-    id: 2,
-    name: "Wallahi Ameen",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "bhjdkm",
-    role: "Co-Founder, CEO",
-    bio: "Sanjay is a senior at Foothill High School passionate about improving educational outcomes globally. His interests lie at the intersection of data science and public policy. He is the president of Foothill Speech and Debate and has published many peer-reviewed articles.",
-  },
-  {
-    id: 3,
-    name: "EEPA EEEPA",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "Eepa Vargeez",
-    role: "Supreme Overlord",
-    bio: "Sanjay is a senior at Foothill High School passionate about improving educational outcomes globally. His interests lie at the intersection of data science and public policy. He is the president of Foothill Speech and Debate and has published many peer-reviewed articles.",
-  },
+
   {
     "id": 4,
     "name": "Tanvi Kapse",

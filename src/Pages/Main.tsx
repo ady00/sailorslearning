@@ -64,10 +64,7 @@ export default function Main(props) {
                     <div className=" h-16 bg-indigo-600 dark:bg-indigo-700 rotate-45 transform origin-top-left"></div>
                   </div>
                   <div className="ml-6 mb-4  duration-150 lg:mr-6 bg-gray-100 border-2 border-gray-200 dark:border-[#182133] dark:bg-[#1d263a]  rounded-xl p-2">
-                    <span className="dark:text-gray-300 font-semibold  duration-150">
-                      Sailors Learning
-                    </span>
-                    , is a 501c3 accredited nonprofit organization which aims to
+                    <b>Sailors Learning</b> is a 501c3 accredited nonprofit organization which aims to
                     give students from K-8 an
                     exciting and engaging way to develop their academic skills.{" "}
                   </div>
