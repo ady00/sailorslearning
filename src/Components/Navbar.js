@@ -29,7 +29,7 @@ const navigation = [
 const mobileNavigation = [
   { name: "Home", href: "/", current: true, page: "main" },
   { name: "Staff", href: "/staff", current: true, page: "staff" },
-  { name: "Donate", href: "/donate", current: true, page: "sponsors" },
+  { name: "Donate", href: "https://www.paypal.com/donate/?cmd=_donations&business=SZJ8WBPGSXNJJ&currency_code=USD&Z3JncnB0=", current: true},
   // {
   //   name: "Leaderboard",
   //   href: "/leaderboard",
