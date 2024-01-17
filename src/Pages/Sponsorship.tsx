@@ -79,16 +79,16 @@ export default function MEME(props) {
         <div className="md:grid-cols-6 flex-col flex md:grid gap-6">
           
           <div className="flex flex-col md:col-span-4 text-gray-900 dark:text-gray-200 gap-4">
-            <div className="inline font-extrabold text-3xl lg:border-l-[10px] lg:pl-3 border-indigo-600 dark:border-indigo-600">
+            <div className="inline font-extrabold text-3xl lg:border-l-[10px] lg:pl-3 border-cyan-600 dark:border-cyan-600">
               What is MEME?
             </div>
             <div className="border border-b-2 border-t-0 border-x-0  dark:border-gray-800 duration-150"></div>
             <div className="relative">
               <div className="w-4 absolute  overflow-hidden   inline-block">
-                <div className="h-16 bg-indigo-600 dark:bg-indigo-700 rotate-45 transform origin-top-left"></div>
+                <div className="h-16 bg-cyan-600 dark:bg-cyan-700 rotate-45 transform origin-top-left"></div>
               </div>
               <div className="ml-6 flex gap-4 text-gray-800 lg:items-center dark:text-gray-200 border-2 border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 rounded-xl p-4">
-                <div className="flex items-center justify-center p-4 h-16 w-20 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-lg text-white">
+                <div className="flex items-center justify-center p-4 h-16 w-20 bg-gradient-to-br from-cyan-500 to-cyan-600 rounded-lg text-white">
                   <UserGroupIcon className="h-8 w-8" aria-hidden="true" />
                 </div>
                 <div>
@@ -101,10 +101,10 @@ export default function MEME(props) {
             </div>
             <div className="relative">
               <div className="w-4 absolute  overflow-hidden   inline-block">
-                <div className=" h-16 bg-indigo-600 dark:bg-indigo-700 rotate-45 transform origin-top-left"></div>
+                <div className=" h-16 bg-cyan-600 dark:bg-cyan-700 rotate-45 transform origin-top-left"></div>
               </div>
               <div className="ml-6 flex gap-4 text-gray-800 lg:items-center dark:text-gray-200 border-2  border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 rounded-xl p-4">
-                <div className="flex items-center justify-center p-4 h-16 w-20 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-lg text-white">
+                <div className="flex items-center justify-center p-4 h-16 w-20 bg-gradient-to-br from-cyan-500 to-cyan-600 rounded-lg text-white">
                   <VariableIcon className="h-8 w-8" aria-hidden="true" />
                 </div>
                 <div>
@@ -118,10 +118,10 @@ export default function MEME(props) {
 
             <div className="relative">
               <div className="w-4 absolute  overflow-hidden   inline-block">
-                <div className=" h-16 bg-indigo-600 dark:bg-indigo-700 rotate-45 transform origin-top-left"></div>
+                <div className=" h-16 bg-cyan-600 dark:bg-cyan-700 rotate-45 transform origin-top-left"></div>
               </div>
               <div className="ml-6 flex gap-4 text-gray-800 lg:items-center dark:text-gray-200 border-2  border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 rounded-xl p-4">
-                <div className="flex items-center justify-center p-4 h-16 w-20 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-lg text-white">
+                <div className="flex items-center justify-center p-4 h-16 w-20 bg-gradient-to-br from-cyan-500 to-cyan-600 rounded-lg text-white">
                   <LocationMarkerIcon className="h-8 w-8" aria-hidden="true" />
                 </div>
                 <div>
@@ -162,13 +162,13 @@ export default function MEME(props) {
                     ))}{" "}
                   </div>
                   <button
-                    className="hover:animate-pulse absolute z-10 p-3 duration-150 transform -translate-y-1/2 rounded-full embla__prev bg-gray-100 dark:bg-gray-600 hover:bg-gray-300 dark:hover:bg-gray-600 dark:hover:text-indigo-500 top-1/2 left-2 "
+                    className="hover:animate-pulse absolute z-10 p-3 duration-150 transform -translate-y-1/2 rounded-full embla__prev bg-gray-100 dark:bg-gray-600 hover:bg-gray-300 dark:hover:bg-gray-600 dark:hover:text-cyan-500 top-1/2 left-2 "
                     onClick={scrollPrev}
                   >
                     <ArrowLeftIcon className="h-6 w-6" />
                   </button>
                   <button
-                    className="hover:animate-pulse absolute z-10 p-3 duration-150 transform -translate-y-1/2 rounded-full embla__next bg-gray-100 dark:bg-gray-600 hover:bg-gray-300 dark:hover:bg-gray-600 dark:hover:text-indigo-500 top-1/2 right-2 "
+                    className="hover:animate-pulse absolute z-10 p-3 duration-150 transform -translate-y-1/2 rounded-full embla__next bg-gray-100 dark:bg-gray-600 hover:bg-gray-300 dark:hover:bg-gray-600 dark:hover:text-cyan-500 top-1/2 right-2 "
                     onClick={scrollNext}
                   >
                     <ArrowRightIcon className="h-6 w-6" />

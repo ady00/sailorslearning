@@ -56,7 +56,7 @@ export default function Navbar(props) {
   return (
     <Disclosure
       as="nav"
-      className="relative bg-gray-900 border-0  border-b-indigo-700 border-b-8 z-20 transition-height duration-300 ease-in-out"
+      className="relative bg-gray-900 border-0  border-b-cyan-700 border-b-8 z-20 transition-height duration-300 ease-in-out"
     >
       {({ open }) => (
         <>
@@ -80,7 +80,7 @@ export default function Navbar(props) {
                 >
                   
                   <div className="ml-2 my-2">
-                    <span className="text-2xl font-[900] text-white dark:text-transparent bg-clip-text bg-gradient-to-r dark:from-indigo-600 dark:via-indigo-600 dark:to-indigo-600 ">
+                    <span className="text-2xl font-[900] text-white dark:text-transparent bg-clip-text bg-gradient-to-r dark:from-cyan-600 dark:via-cyan-600 dark:to-cyan-600 ">
                       Sailors Learning
                     </span>
                     
@@ -94,8 +94,8 @@ export default function Navbar(props) {
                         href={item.href}
                         className={classNames(
                           item.page === props.page
-                            ? " text-white  border-0 border-y-2 border-b-indigo-700 border-t-gray-900 transform duration-150 ease-in-out "
-                            : "text-gray-300 hover:bg-gray-800 hover:text-white rounded-t-md transform duration-150 ease-in-out border-indigo-800 border-t-2 border-t-gray-900 hover:border-b-2 hover:border-b-indigo-700",
+                            ? " text-white  border-0 border-y-2 border-b-cyan-700 border-t-gray-900 transform duration-150 ease-in-out "
+                            : "text-gray-300 hover:bg-gray-800 hover:text-white rounded-t-md transform duration-150 ease-in-out border-cyan-800 border-t-2 border-t-gray-900 hover:border-b-2 hover:border-b-cyan-700",
                           "px-[10px] lg:px-3 py-2 text-xs md:text-sm lg:text-base font-medium rounded-t-md"
                         )}
                         aria-current={item.current ? "page" : undefined}
@@ -113,7 +113,7 @@ export default function Navbar(props) {
                   >
                     <div className="h-9 w-9 flex items-center justify-center">
                       {props.dark ? (
-                        <MoonIcon className="h-6 w-6  text-indigo-600"></MoonIcon>
+                        <MoonIcon className="h-6 w-6  text-cyan-600"></MoonIcon>
                       ) : (
                         <SunIcon className="h-6 w-6 "></SunIcon>
                       )}
@@ -129,7 +129,7 @@ export default function Navbar(props) {
                 >
                   <div className="h-9 w-9 flex items-center justify-center">
                     {props.dark ? (
-                      <MoonIcon className="h-6 w-6  text-indigo-600"></MoonIcon>
+                      <MoonIcon className="h-6 w-6  text-cyan-600"></MoonIcon>
                     ) : (
                       <SunIcon className="h-6 w-6 "></SunIcon>
                     )}
@@ -147,7 +147,7 @@ export default function Navbar(props) {
                   href={item.href}
                   className={classNames(
                     item.page === props.page
-                      ? " text-white  border-t-0 border-b-0 border-r-0 rounded border-l-4 border-indigo-700 bg-gradient-to-r from-gray-800 to-gray-900"
+                      ? " text-white  border-t-0 border-b-0 border-r-0 rounded border-l-4 border-cyan-700 bg-gradient-to-r from-gray-800 to-gray-900"
                       : "text-gray-300 hover:bg-gray-800 hover:text-white",
                     "block px-3 py-2 text-base font-medium"
                   )}

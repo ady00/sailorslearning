@@ -20,7 +20,7 @@ export default function TestDocs(props) {
             Sailors Learning 2022 Test Documents
           </div>
           <a href="/2022-leaderboard" className="lg:ml-auto mt-2 lg:mt-0">
-            <button className="bg-indigo-700 hover:bg-indigo-800 rounded-xl   hover:scale-105 duration-150 text-white font-bold py-2 px-4">
+            <button className="bg-cyan-700 hover:bg-cyan-800 rounded-xl   hover:scale-105 duration-150 text-white font-bold py-2 px-4">
               See the leaderboard
             </button>
           </a>

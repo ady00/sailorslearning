@@ -58,16 +58,16 @@ export default function Publications(props) {
             />
           </div>
           <div className="flex flex-col md:col-span-4 text-gray-900 dark:text-gray-200 gap-4">
-            <div className="inline font-extrabold text-3xl lg:border-l-[10px] lg:pl-3 border-indigo-600 dark:border-indigo-600">
+            <div className="inline font-extrabold text-3xl lg:border-l-[10px] lg:pl-3 border-cyan-600 dark:border-cyan-600">
               Publications
             </div>
             <div className="border border-b-2 border-t-0 border-x-0  dark:border-gray-800 duration-150"></div>
             <div className="relative">
               <div className="w-4 absolute  overflow-hidden   inline-block">
-                <div className="h-16 bg-indigo-600 dark:bg-indigo-700 rotate-45 transform origin-top-left"></div>
+                <div className="h-16 bg-cyan-600 dark:bg-cyan-700 rotate-45 transform origin-top-left"></div>
               </div>
               <div className="ml-6 flex gap-4 text-gray-800 lg:items-center dark:text-gray-200 border-2 border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 rounded-xl p-4">
-                <div className="flex items-center justify-center p-4 h-16 w-20 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-lg text-white">
+                <div className="flex items-center justify-center p-4 h-16 w-20 bg-gradient-to-br from-cyan-500 to-cyan-600 rounded-lg text-white">
                   <UserGroupIcon className="h-8 w-8" aria-hidden="true" />
                 </div>
                 <div>
@@ -80,10 +80,10 @@ export default function Publications(props) {
             </div>
             <div className="relative">
               <div className="w-4 absolute  overflow-hidden   inline-block">
-                <div className=" h-16 bg-indigo-600 dark:bg-indigo-700 rotate-45 transform origin-top-left"></div>
+                <div className=" h-16 bg-cyan-600 dark:bg-cyan-700 rotate-45 transform origin-top-left"></div>
               </div>
               <div className="ml-6 flex gap-4 text-gray-800 lg:items-center dark:text-gray-200 border-2  border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 rounded-xl p-4">
-                <div className="flex items-center justify-center p-4 h-16 w-20 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-lg text-white">
+                <div className="flex items-center justify-center p-4 h-16 w-20 bg-gradient-to-br from-cyan-500 to-cyan-600 rounded-lg text-white">
                   <VariableIcon className="h-8 w-8" aria-hidden="true" />
                 </div>
                 <div>
@@ -96,10 +96,10 @@ export default function Publications(props) {
 
             <div className="relative">
               <div className="w-4 absolute  overflow-hidden   inline-block">
-                <div className=" h-16 bg-indigo-600 dark:bg-indigo-700 rotate-45 transform origin-top-left"></div>
+                <div className=" h-16 bg-cyan-600 dark:bg-cyan-700 rotate-45 transform origin-top-left"></div>
               </div>
               <div className="ml-6 flex gap-4 text-gray-800 lg:items-center dark:text-gray-200 border-2  border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 rounded-xl p-4">
-                <div className="flex items-center justify-center p-4 h-16 w-20 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-lg text-white">
+                <div className="flex items-center justify-center p-4 h-16 w-20 bg-gradient-to-br from-cyan-500 to-cyan-600 rounded-lg text-white">
                 
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m5.231 13.481L15 17.25m-4.5-15H5.625c-.621 0-1.125.504-1.125 1.125v16.5c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Zm3.75 11.625a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z" />

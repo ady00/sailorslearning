@@ -22,10 +22,10 @@ export default function Sample(props) {
           <div className="mt-6 mb-2 rounded-lg bg-blue-100 dark:bg-blue-200 p-2 border-2 border-blue-300 dark:border-blue-400">
             This was a high quality AMC 10 and AMC 12 style mock competition.
             Just like a regular AMC, this test was a 25 question multiple choice
-            examination scoindigo out of 150, meant to be taken over the course of
+            examination scocyan out of 150, meant to be taken over the course of
             75 minutes. The tools allowed were the same as what you would be
             allowed on a regular AMC. We provided two mock competitions, an AMC
-            10 mock and an AMC 12 mock. Questions were shaindigo between both
+            10 mock and an AMC 12 mock. Questions were shacyan between both
             mocks.
           </div>
         </div>

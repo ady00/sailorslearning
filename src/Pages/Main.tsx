@@ -48,20 +48,20 @@ export default function Main(props) {
             <section className="mt-4 mx-auto max-w-7xl px-4 sm:px-6 2xl:mt-14 lg:mt-6 lg:px-8 py-3">
               <div className="relative">
                 <h1 className="tracking-tight font-extrabold text-gray-900 dark:text-transparent  sm:text-6xl sm:pb-3">
-                  <span className=" duration-150 tiny:text-[3rem] text-4xl sm:text-6xl inline lg:border-l-[10px] lg:pl-3 border-indigo-700 dark:border-indigo-700 bg-clip-text bg-gradient-to-l from-indigo-600 via-indigo-700 to-indigo-700">
+                  <span className=" duration-150 tiny:text-[3rem] text-4xl sm:text-6xl inline lg:border-l-[10px] lg:pl-3 border-cyan-700 dark:border-cyan-700 bg-clip-text bg-gradient-to-l from-cyan-600 via-cyan-700 to-cyan-700">
                     Online learning, {" "}
                   </span>
-                  <span className="text-[rem] tiny:text-[3.5rem] sm:text-5xl font-[900] text-transparent bg-clip-text bg-gradient-to-r from-indigo-700 dark:from-indigo-600 to-indigo-700 dark:to-indigo-600  inline ">
+                  <span className="text-[rem] tiny:text-[3.5rem] sm:text-5xl font-[900] text-transparent bg-clip-text bg-gradient-to-r from-cyan-700 dark:from-cyan-600 to-cyan-700 dark:to-cyan-600  inline ">
                    Reimagined.
                   </span>
                   <div className="w-24 absolute h-40 ml-8 overflow-hidden tiny:hidden inline-block">
-                    <div className=" h-24 bg-indigo-700 -rotate-45 transform origin-top-right"></div>
+                    <div className=" h-24 bg-cyan-700 -rotate-45 transform origin-top-right"></div>
                   </div>
                 </h1>
                 <div className="border border-b-2 border-t-0 border-x-0 mt-3 mb-6 dark:border-gray-800 duration-150"></div>
                 <p className=" duration-150 pb-4 md:pb-0 mt-3 text-gray-500 dark:text-gray-400  z-10 relative sm:mt-5 text-md 2xl:text-lg  sm:mx-auto md:mt-5 lg:mx-0">
                   <div className="w-4 absolute  overflow-hidden   inline-block">
-                    <div className=" h-16 bg-indigo-600 dark:bg-indigo-700 rotate-45 transform origin-top-left"></div>
+                    <div className=" h-16 bg-cyan-600 dark:bg-cyan-700 rotate-45 transform origin-top-left"></div>
                   </div>
                   <div className="ml-6 mb-4  duration-150 lg:mr-6 bg-gray-100 border-2 border-gray-200 dark:border-[#182133] dark:bg-[#1d263a]  rounded-xl p-2">
                     <b>Sailors Learning</b> is a 501c3 accredited nonprofit organization which aims to
@@ -69,7 +69,7 @@ export default function Main(props) {
                     exciting and engaging way to develop their academic skills.{" "}
                   </div>
                   <div className="w-4 absolute  overflow-hidden   inline-block">
-                    <div className=" h-16 bg-indigo-600 dark:bg-indigo-700 rotate-45 transform origin-top-left"></div>
+                    <div className=" h-16 bg-cyan-600 dark:bg-cyan-700 rotate-45 transform origin-top-left"></div>
                   </div>
                   <div className="ml-6  duration-150 lg:mr-6 bg-gray-100 border-2 border-gray-200 dark:border-[#182133] dark:bg-[#1d263a] rounded-xl p-2 ">
                   In an increasingly virtual learning environment, Sailors Learning is here to engage and inspire through one-on-one tutoring 
@@ -83,7 +83,7 @@ export default function Main(props) {
                     <a
                       href="https://docs.google.com/forms/u/0"
                       className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium 
-                      rounded-xl shadow text-white bg-gradient-to-r from-indigo-700 to-indigo-800 md:py-4 md:text-lg select-none"
+                      rounded-xl shadow text-white bg-gradient-to-r from-cyan-700 to-cyan-800 md:py-4 md:text-lg select-none"
                     >
                       Sign up today!{" "}
                       <ArrowSmRightIcon className="h-5 w-5 my-auto ml-2"></ArrowSmRightIcon>
@@ -106,7 +106,7 @@ export default function Main(props) {
             loading="lazy"
           />
 
-          <div className="absolute left-0 right-0 lg:right-1/2 xl:right-3/4 top-0 bottom-0 inset-0 opacity-[10%] transform-gpu animate-blob1 rounded-full blur-2xl bg-indigo-900 "></div>
+          <div className="absolute left-0 right-0 lg:right-1/2 xl:right-3/4 top-0 bottom-0 inset-0 opacity-[10%] transform-gpu animate-blob1 rounded-full blur-2xl bg-cyan-900 "></div>
           <div className="w-11 absolute right-0 bottom-0 overflow-hidden lg:hidden inline-block">
             <div className=" h-16  bg-slate-100 dark:bg-[#182133] rotate-45 transform origin-bottom-left"></div>
           </div>
@@ -117,12 +117,12 @@ export default function Main(props) {
 
       <section className="py-12 bg-slate-100 dark:bg-[#182133] relative z-20 duration-150">
         <div className="w-4 absolute ml-[-5px] overflow-hidden lg:hidden inline-block">
-          <div className=" h-16 bg-indigo-700 rotate-45 transform origin-top-left"></div>
+          <div className=" h-16 bg-cyan-700 rotate-45 transform origin-top-left"></div>
         </div>
         <div className="justify-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
           <div className="lg:grid grid-cols-4">
             <div>
-              <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase ">
+              <h2 className="text-base text-cyan-600 font-semibold tracking-wide uppercase ">
                 About Us
               </h2>
               <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 dark:text-gray-300 sm:text-4xl">
@@ -163,11 +163,11 @@ export default function Main(props) {
       <section className="md:flex place-content-center">
         <div className="py-12 self-center md:mt-2 mb-2">
           <div className="w-4 absolute ml-[-5px] overflow-hidden lg:hidden inline-block">
-            <div className=" h-16 bg-indigo-700 rotate-45 transform origin-top-left"></div>
+            <div className=" h-16 bg-cyan-700 rotate-45 transform origin-top-left"></div>
           </div>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="self-center ">
-              <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">
+              <h2 className="text-base text-cyan-600 font-semibold tracking-wide uppercase">
                 Reviews
               </h2>
               <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl dark:text-gray-300 ">
@@ -189,7 +189,7 @@ export default function Main(props) {
               
               <li className="mb-10 ml-4 text-white bg-gray-100 dark:bg-[#1d263a] border-2 border-gray-200 dark:border-[#182133] rounded-xl p-2">
                 <div className="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 -left-[0.415rem] border border-white dark:border-gray-900 "></div>
-                <time className="mb-1 text-sm font-normal leading-none text-indigo-700 dark:text-indigo-600">
+                <time className="mb-1 text-sm font-normal leading-none text-cyan-700 dark:text-cyan-600">
                  Parent
                 </time>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-300 ">
@@ -201,7 +201,7 @@ export default function Main(props) {
               </li>
               <li className="mb-10 ml-4 text-white bg-gray-100 dark:bg-[#1d263a] border-2 border-gray-200 dark:border-[#182133] rounded-xl p-2">
                 <div className="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 -left-[0.415rem] border border-white dark:border-gray-900 "></div>
-                <time className="mb-1 text-sm font-normal leading-none text-indigo-700 dark:text-indigo-600">
+                <time className="mb-1 text-sm font-normal leading-none text-cyan-700 dark:text-cyan-600">
                   Parent
                 </time>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-300 ">
@@ -213,7 +213,7 @@ export default function Main(props) {
               </li>
               <li className="mb-10 ml-4 text-white bg-gray-100 dark:bg-[#1d263a] border-2 border-gray-200 dark:border-[#182133] rounded-xl p-2">
                 <div className="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 -left-[0.415rem] border border-white dark:border-gray-900 "></div>
-                <time className="mb-1 text-sm font-normal leading-none text-indigo-700 dark:text-indigo-600">
+                <time className="mb-1 text-sm font-normal leading-none text-cyan-700 dark:text-cyan-600">
                   Parent
                 </time>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-300 ">
@@ -229,12 +229,12 @@ export default function Main(props) {
       </section>
       <section className="py-12 bg-slate-100 dark:bg-[#182133] align-center duration-150">
         <div className="w-4 absolute ml-[-5px] overflow-hidden lg:hidden inline-block">
-          <div className=" h-16 bg-indigo-700 rotate-45 transform origin-top-left"></div>
+          <div className=" h-16 bg-cyan-700 rotate-45 transform origin-top-left"></div>
         </div>
         <div className="justify-center lg:grid lg:grid-cols-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 gap-8">
           <div className="md:flex mb-5 col-span-1">
             <div className="lg:self-center">
-              <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">
+              <h2 className="text-base text-cyan-600 font-semibold tracking-wide uppercase">
                 Join
               </h2>
               <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 dark:text-gray-300 sm:text-4xl">
