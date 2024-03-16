@@ -11,7 +11,17 @@ const members = [
     imageSrc: "/staff/default.png",
     imageAlt: "Archit Kumar",
     role: "Co-Founder, CEO",
-    bio: "SanArchit is a senior at Foothill High School passionate about improving educational outcomes globally. His interests lie at the intersection of data science and public policy. He is the president of Foothill Speech and Debate and has published many peer-reviewed articles.",
+    bio: "Archit Kumar is a senior at Foothill High School passionate about improving educational outcomes globally.",
+  },
+
+  {
+    id: 2,
+    name: "Abyan Das",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Archit Kumar",
+    role: "Co-Founder, COO",
+    bio: "Abyan is currently studying Economics and Data Science at UC Berkeley with an interest in policymaking through data-driven analytics.",
   },
 
   {
