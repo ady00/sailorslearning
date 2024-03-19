@@ -38,7 +38,7 @@ const members = [
     imageSrc: "/staff/default.png",
     imageAlt: "Archit Kumar",
     role: "Co-Founder",
-    bio: "Sanjay is an Elecreical engineering and computer science major at UC Berkeley interested in Artificial Intelligence and Public Policy",
+    bio: "Sanjay is an Elecreical engineering and computer science major at UC Berkeley interested in Artificial Intelligence and Public Policy.",
   },
   {
     id: 5,
