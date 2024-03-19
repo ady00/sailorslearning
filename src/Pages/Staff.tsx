@@ -10,7 +10,7 @@ const members = [
     href: "#",
     imageSrc: "/staff/default.png",
     imageAlt: "Archit Kumar",
-    role: "Co-Founder, CEO",
+    role: "CEO",
     bio: "Archit is a data enthusiast with a passion for applying mathematics to real-world problems, aiming to major in actuarial science. When he's not analyzing data or solving equations, Archito's on the tennis court, where he finds joy in the strategic challenges of the game.",
   },
   {
