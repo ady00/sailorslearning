@@ -11,9 +11,8 @@ const members = [
     imageSrc: "/staff/default.png",
     imageAlt: "Archit Kumar",
     role: "Co-Founder, CEO",
-    bio: "Archit Kumar is a senior at Foothill High School passionate about improving educational outcomes globally.",
+    bio: "Archit is a data enthusiast with a passion for applying mathematics to real-world problems, aiming to major in actuarial science. When he's not analyzing data or solving equations, Archito's on the tennis court, where he finds joy in the strategic challenges of the game.",
   },
-
   {
     id: 2,
     name: "Abyan Das",
@@ -23,6 +22,34 @@ const members = [
     role: "Co-Founder, COO",
     bio: "Abyan is currently studying Economics and Data Science at UC Berkeley with an interest in policymaking through data-driven analytics.",
   },
+  {
+    id: 3,
+    name: "Monish Muralicharan",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Archit Kumar",
+    role: "Co-Founder",
+    bio: "Monish is a Computer Science major at Purdue University currently working in software engineering and data science research.",
+  },
+  {
+    id: 4,
+    name: "Sanjay Adhikesaven",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Archit Kumar",
+    role: "Co-Founder",
+    bio: "Sanjay is an Elecreical engineering and computer science major at UC Berkeley interested in Artificial Intelligence and Public Policy",
+  },
+  {
+    id: 5,
+    name: "Riya Datla",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Archit Kumar",
+    role: "CFO",
+    bio: "Senior at Foothill High School. Competitor in a civic education program. Energetic advocate for youth activism. Dedicated to helping communities of all kinds, both in and out of school. Enjoys  working with children and building personal connections.",
+  },
+
 
   {
     "id": 4,
