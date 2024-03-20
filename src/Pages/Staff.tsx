@@ -4,17 +4,9 @@ import Profile from "../Components/Profile";
 import React from "react";
 
 const members = [
+  
   {
     id: 1,
-    name: "Archit Kumar",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "Archit Kumar",
-    role: "CEO",
-    bio: "Archit is a data enthusiast with a passion for applying mathematics to real-world problems, aiming to major in actuarial science. When he's not analyzing data or solving equations, Archito's on the tennis court, where he finds joy in the strategic challenges of the game.",
-  },
-  {
-    id: 2,
     name: "Abyan Das",
     href: "#",
     imageSrc: "/staff/default.png",
@@ -23,7 +15,7 @@ const members = [
     bio: "Abyan is currently studying Economics and Data Science at UC Berkeley with an interest in policymaking through data-driven analytics.",
   },
   {
-    id: 3,
+    id: 2,
     name: "Monish Muralicharan",
     href: "#",
     imageSrc: "/staff/default.png",
@@ -32,13 +24,22 @@ const members = [
     bio: "Monish is a Computer Science major at Purdue University currently working in software engineering and data science research.",
   },
   {
-    id: 4,
+    id: 3,
     name: "Sanjay Adhikesaven",
     href: "#",
     imageSrc: "/staff/default.png",
     imageAlt: "Archit Kumar",
     role: "Co-Founder",
     bio: "Sanjay is an Elecreical engineering and computer science major at UC Berkeley interested in Artificial Intelligence and Public Policy.",
+  },
+  {
+    id: 4,
+    name: "Archit Kumar",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Archit Kumar",
+    role: "CEO",
+    bio: "Archit is a data enthusiast with a passion for applying mathematics to real-world problems, aiming to major in actuarial science. When he's not analyzing data or solving equations, Archito's on the tennis court, where he finds joy in the strategic challenges of the game.",
   },
   {
     id: 5,
