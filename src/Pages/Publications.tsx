@@ -119,7 +119,7 @@ export default function Publications(props) {
             <div className=" text-gray-800 dark:text-gray-200">
               <p className="font-extrabold text-3xl  pb-2">Artificial Intelligence is Transforming Modern Education</p>
               <p className="mb-3">
-                <i>Sanjay Adhikesaven, Abyan Das, Monish Muralicharan, Archit Kumar<br></br></i><br></br>
+                <i>Sanjay Adhikesaven, Abyan Das, Monish Muralicharan<br></br></i><br></br>
 
 
                 Artificial Intelligence (AI) has a pivotal role in many K-12 educational systems, providing benefits for both students teachers. To best utilize AI’s potential, it is key for governments to implement policies conducive to AI’s adoption within classrooms. We discuss the benefits and limitations AI provides to education as well as the steps needed to responsible use AI in education in the future. 
@@ -137,7 +137,7 @@ export default function Publications(props) {
             <div className=" text-gray-800 dark:text-gray-200">
               <p className="font-extrabold text-3xl  pb-2">Machine Learning-Based Multivariate Regression Analysis of United States' Educational Outcomes</p>
               <p className="mb-3">
-                <i>Sanjay Adhikesaven, Abyan Das, Monish Muralicharan, Archit Kumar<br></br></i><br></br>
+                <i>Sanjay Adhikesaven, Abyan Das, Monish Muralicharan<br></br></i><br></br>
 
 
                 Educational achievement, an important indicator of future success, is at the forefront of American policy-making. Effective policy must target specific factors which have a high impact on student educational outcomes. Our study uses machine learning to show which variables are connected with educational achievement. We evaluate educational achievement with a student’s ELA test score since a strong ELA score allows students to succeed in other areas where reading and writing are required. Using machine learning multivariate regression models to analyze data from over 10,000 counties across the United States, we show that the pupil-teacher ratio in schools, percent of 5-17 year olds that are in poverty, 50/10 income ratio, percent of people unemployed, and percent of students that get free lunch are the top five most important determining factors for a student’s ELA score. These results can be used by policymakers to create effective educational policy targeting these specific factors.<br>
