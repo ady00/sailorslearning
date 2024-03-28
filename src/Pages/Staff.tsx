@@ -38,7 +38,7 @@ const members = [
     href: "#",
     imageSrc: "/staff/default.png",
     imageAlt: "Archit Kumar",
-    role: "CEO",
+    role: "Intern CEO",
     bio: "Archit is a data enthusiast with a passion for applying mathematics to real-world problems, aiming to major in actuarial science. When he's not analyzing data or solving equations, Archito's on the tennis court, where he finds joy in the strategic challenges of the game.",
   },
   {
@@ -47,8 +47,17 @@ const members = [
     href: "#",
     imageSrc: "/staff/default.png",
     imageAlt: "Archit Kumar",
-    role: "CFO",
+    role: "Intern",
     bio: "Senior at Foothill High School. Competitor in a civic education program. Energetic advocate for youth activism. Dedicated to helping communities of all kinds, both in and out of school. Enjoys  working with children and building personal connections.",
+  },
+  {
+    id: 6,
+    name: "Rhea Ramamoorthy",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Archit Kumar",
+    role: "Intern",
+    bio: "Rhea is currently a senior at Foothill High School. She plans on majoring in Cognative Science and loves to help our the community. She is excited to be on the board for Sailors Learning!",
   },
 
 
