@@ -4,61 +4,63 @@ import Profile from "../Components/Profile";
 import React from "react";
 
 const members = [
-  
+
   {
     id: 1,
+    name: "Nirav Jaiswal",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Archit Kumar",
+    role: "CEO",
+    bio: "Hi there! I'm Nirav, a senior based in the Bay Area with a passion for computer science and more specifically, AI and app development. Currently exploring the fascinating world of technology, I'm dedicated to leveraging these tools to create innovative solutions that help people.",
+  },
+  {
+    id: 2,
+    name: "Advay Bajpai",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "CTO",
+    role: "CTO",
+    bio: "Senior at Foothill High School. Competitor in a civic education program. Energetic advocate for youth activism. Enjoys tinkering with web development in his free time. Dedicated to helping communities of all kinds, both in and out of school.",
+  },
+  {
+    id: 3,
+    name: "Ritvik Mishra",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "CMO",
+    role: "CMO",
+    bio: "Ritvik is an aspiring Political Science and Economics Major at Foothill High School. Interned with Eric Swalwell and a student fellow of the Democracy Summer program as a representative from CA-14. Also active in DECA and MUN.",
+  },
+  
+  {
+    id: 4,
     name: "Abyan Das",
     href: "#",
     imageSrc: "/staff/default.png",
     imageAlt: "Archit Kumar",
-    role: "Co-Founder, COO",
+    role: "Original Founder",
     bio: "Abyan is currently studying Economics and Data Science at UC Berkeley with an interest in policymaking through data-driven analytics.",
   },
   {
-    id: 2,
+    id: 5,
     name: "Monish Muralicharan",
     href: "#",
     imageSrc: "/staff/default.png",
     imageAlt: "Archit Kumar",
-    role: "Co-Founder",
+    role: "Original Founder",
     bio: "Monish is a Computer Science major at Purdue University currently working in software engineering and data science research.",
   },
   {
-    id: 3,
+    id: 6,
     name: "Sanjay Adhikesaven",
     href: "#",
     imageSrc: "/staff/default.png",
     imageAlt: "Archit Kumar",
-    role: "Co-Founder",
+    role: "Original Founder",
     bio: "Sanjay is an Elecreical engineering and computer science major at UC Berkeley interested in Artificial Intelligence and Public Policy.",
   },
-  {
-    id: 4,
-    name: "Archit Kumar",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "Archit Kumar",
-    role: "Intern CEO",
-    bio: "Archit is a data enthusiast with a passion for applying mathematics to real-world problems, aiming to major in actuarial science. When he's not analyzing data or solving equations, Archito's on the tennis court, where he finds joy in the strategic challenges of the game.",
-  },
-  {
-    id: 5,
-    name: "Riya Datla",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "Archit Kumar",
-    role: "Intern",
-    bio: "Senior at Foothill High School. Competitor in a civic education program. Energetic advocate for youth activism. Dedicated to helping communities of all kinds, both in and out of school. Enjoys  working with children and building personal connections.",
-  },
-  {
-    id: 6,
-    name: "Rhea Ramamoorthy",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "Archit Kumar",
-    role: "Intern",
-    bio: "Rhea is currently a senior at Foothill High School. She plans on majoring in Cognative Science and loves to help our the community. She is excited to be on the board for Sailors Learning!",
-  },
+  
 
 
   {
