@@ -23,15 +23,7 @@ const members = [
     role: "CTO",
     bio: "Senior at Foothill High School. Competitor in a civic education program. Energetic advocate for youth activism. Enjoys tinkering with web development in his free time. Dedicated to helping communities of all kinds, both in and out of school.",
   },
-  {
-    id: 3,
-    name: "Ritvik Mishra",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "CMO",
-    role: "CMO",
-    bio: "Ritvik is an aspiring Political Science and Economics Major at Foothill High School. Interned with Eric Swalwell and a student fellow of the Democracy Summer program as a representative from CA-14. Also active in DECA and MUN.",
-  },
+ 
   
   {
     id: 4,
